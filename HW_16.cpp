@@ -29,9 +29,9 @@ int main()
 
     int Sum = 0; //Entering integer for counting sum in array
     
-    for (int String = 0; String < Nsize; String++)
+    for (int Column = 0; Column < Nsize; Column++)
     {
-        Sum = Sum + array[StringNumber][String];
+        Sum = Sum + array[StringNumber][Column];
     }
 
     std::cout <<"\n" << "Sum of string " <<StringNumber <<" = " <<Sum<< "\n"; //Output result of string
